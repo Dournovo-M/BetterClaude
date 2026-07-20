@@ -1,0 +1,21 @@
+{
+  "name": "better-claude",
+  "version": "1.0.0",
+  "description": "Local task queue for Claude Code CLI — API server + keyboard-driven TUI. Queue prompts, review results, resume sessions.",
+  "main": "server.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dournovo-M/BetterClaude.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "tui": "./cli.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "neo-blessed": "^0.2.0"
+  }
+}
